@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Practical4</string>
+    <string name="my_button_text">Hello, I am a TextView</string>
+    <string name="my_text">Hello, I am a Button</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="time_picker">Time Picker</string>
+    <string name="date_picker">Date Picker</string>
+    <string name="currentdate">CurrentDate</string>
+    <string name="currenttime">CurrentTime</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_settings">Settings</string>
+</resources>
