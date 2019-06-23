@@ -17,11 +17,17 @@
     <string name="fire">Fire</string>
     <string name="cancel">Cancel</string>
 
-    <string name="tab_label1">Tab 1</string>
-    <string name="tab_label2">Tab 2</string>
-    <string name="tab_label3">Tab 3</string>
+
     <string name="home">Home</string>
     <string name="dashboard">Dashboard</string>
     <string name="notifications">Notifications</string>
     <string name="color_picker">Color Picker</string>
+    <string name="settings_clicked">You\'ve clicked on settings!</string>
+    <string name="favorite_clicked">You\'ve clicked on favorite!</string>
+    <string name="action_search">Search</string>
+    <string name="search_clicked">You\'ve clicked on search!</string>
+    <string name="share">Share</string>
+    <string name="share_clicked">You\'ve clicked on Share!</string>
+    <string name="collapse">Collapse</string>
+    <string name="expand">Expand</string>
 </resources>
