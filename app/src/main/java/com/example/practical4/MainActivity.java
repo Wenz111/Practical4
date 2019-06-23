@@ -1,5 +1,6 @@
 package com.example.practical4;
 
+import android.content.Intent;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 //
 //        ListView listView = (ListView) findViewById(R.id.list_view);
 //        listView.setAdapter(adapter);
+
 
     }
 
@@ -76,23 +78,9 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_settings:
-                // User chose the "Settings" item, show the app settings UI...
-                return true;
 
-            case R.id.action_favorite:
-                // User chose the "Favorite" action, mark the current item
-                // as a favorite...
-                return true;
-
-            default:
-                // If we got here, the user's action was not recognized.
-                // Invoke the superclass to handle it.
-                return super.onOptionsItemSelected(item);
-
-        }
+    public void launchAlertDialogActivity(View view) {
+        Intent intent = new Intent(this, AlertDialogActivity.class);
+        startActivity(intent);
     }
 }
